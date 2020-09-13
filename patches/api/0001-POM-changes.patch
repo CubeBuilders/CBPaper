@@ -1,0 +1,36 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Siggi88 <7286178+Siggi88@users.noreply.github.com>
+Date: Mon, 14 Sep 2020 00:10:29 +0800
+Subject: [PATCH] POM changes
+
+
+diff --git a/pom.xml b/pom.xml
+index 29dafd4b937e635bcce7b3712122ad3452fedfc2..07cece875409e1760122b34463c97470b4a52d24 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -3,18 +3,19 @@
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+     <parent>
+-        <groupId>com.destroystokyo.paper</groupId>
+-        <artifactId>paper-parent</artifactId>
++        <groupId>io.siggi</groupId>
++        <artifactId>cbpaper-parent</artifactId>
+         <version>dev-SNAPSHOT</version>
++        <relativePath>../pom.xml</relativePath>
+     </parent>
+ 
+-    <groupId>com.destroystokyo.paper</groupId>
+-    <artifactId>paper-api</artifactId>
++    <groupId>io.siggi</groupId>
++    <artifactId>cbpaper-api</artifactId>
+     <version>1.16.3-R0.1-SNAPSHOT</version>
+     <packaging>jar</packaging>
+ 
+-    <name>Paper-API</name>
+-    <url>https://github.com/PaperMC/Paper</url>
++    <name>CBPaper-API</name>
++    <url>https://github.com/CubeBuilders/CBPaper</url>
+     <description>An enhanced plugin API for Minecraft servers.</description>
+ 
+     <properties>

@@ -1,0 +1,19 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.siggi</groupId>
+    <artifactId>cbpaper-parent</artifactId>
+    <version>dev-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>CBPaper (Parent)</name>
+
+    <build>
+        <defaultGoal>install</defaultGoal>
+        <finalName>${project.artifactId}</finalName>
+    </build>
+    <modules>
+        <module>CBPaper-API</module>
+        <module>CBPaper-Server</module>
+        <module>Paper${file.separator}Paper-MojangAPI</module> <!-- We don't plan on patching this, so this hack is good enough. -->
+    </modules>
+</project>
